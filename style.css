@@ -9,9 +9,16 @@ body {
     padding: 0;
     background-color: #fca2a2;
     font-family: Georgia, "Times New Roman", serif;
+    background-image: url("776290792_940793761634690_922127394583043290_n");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+    text-align: center;
+    margin: 0;
+    padding: 20px;
 }
-
-
 
 
 .title {
