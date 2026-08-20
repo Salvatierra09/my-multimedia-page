@@ -1,7 +1,11 @@
 
-*
+
+* {
+    box-sizing: border-box;
+}
+
 body {
-    background-image: url"download.jpg";
+    background-image: url("yang.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -14,16 +18,22 @@ body {
 
 
 .title {
-    text-align: right;
+    text-align: center;
     font-size: 32px;
-    border: 2px solid transparent;
+    margin: 25px 0;
+    padding-bottom: 25px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
 }
 
 
-
-
 .media-section {
-   border: 2px solid transparent;
+    margin: 14px 10px;
+    padding: 28px 20px;
+    background-color: rgba(194, 94, 94, 0.75);
+
+    /* Transparent border */
+    border: 2px solid rgba(255, 255, 255, 0.35);
+    border-radius: 20px;
 }
 
 .media-section h2,
@@ -31,8 +41,6 @@ body {
     margin: 15px 0 28px 0;
     font-size: 25px;
 }
-
-
 
 
 .image-container {
@@ -43,18 +51,17 @@ body {
 }
 
 .image-container img {
-    width: 250px;
+    width: 204px;
     height: 252px;
 
     object-fit: cover;
 
-    border: 2px solid transparent;
+    /* Transparent border */
+    border: 2px solid rgba(255, 255, 255, 0.35);
     border-radius: 25px;
 
     display: block;
 }
-
-
 
 
 .audio-container {
@@ -69,12 +76,14 @@ body {
 }
 
 
-
-
 .video-section {
     margin: 14px 0;
     padding: 25px 18px;
-    border: 2px solid transparent;
+    background-color: rgba(194, 94, 94, 0.75);
+
+    /* Transparent border */
+    border: 2px solid rgba(255, 255, 255, 0.35);
+    border-radius: 20px;
 
     min-height: 600px;
 }
